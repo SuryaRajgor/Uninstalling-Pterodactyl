@@ -2,7 +2,6 @@
 
 # Uninstall Panel
 
-```
 ## Panel files
 ```bash
 sudo rm -rf /var/www/pterodactyl

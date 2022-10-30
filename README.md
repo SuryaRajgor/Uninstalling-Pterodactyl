@@ -2,16 +2,17 @@
 
 # Uninstall Panel
 
-
-# Panel files
+```
+## Panel files
 ```bash
 sudo rm -rf /var/www/pterodactyl
 ```
-# If using nginx
+## If using nginx
 ```bash
 sudo unlink /etc/nginx/sites-enabled/pterodactyl.conf
 ```
-# If using apache
+## If using apache
 ```bash
 sudo unlink /etc/apache2/sites-enabled/pterodactyl.conf
+```
 ```
